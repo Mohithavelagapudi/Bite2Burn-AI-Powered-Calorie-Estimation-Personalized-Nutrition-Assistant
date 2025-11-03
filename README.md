@@ -3,6 +3,11 @@
 > ⚙️ *Retrieval-Augmented Generation (RAG) over the Indian Food Composition Tables (IFCT 2017)*  
 > 🧠 *Combining NLP, Information Retrieval, and Nutrition Science for culturally aware dietary guidance.*
 
+
+<p align="center">
+  <img src="image (50).png" alt="" width="1000"/>
+</p>
+
 ---
 
 ### 📘 **Introduction**
@@ -61,6 +66,21 @@ This project blends **machine learning**, **data engineering**, and **human-comp
 | ⚖️ **Personalization Logic** | Derived caloric equations *(future extension)* | Tailored intake/expenditure guidance |
 
 ---
+
+### 📊 **Sample Output**
+
+| **User Query**                               | **Bite2Burn AI Response (Example)**                                                                                                            |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| “What’s the calorie content of cooked rice?” | *Cooked rice contains approximately 130 kcal per 100g according to IFCT (2017). The energy values vary slightly between East and South India.* |
+| “How many steps do I need to burn 500 kcal?” | *For a 70kg individual walking at 5 km/h, approximately 8,500–9,000 steps are needed to burn 500 kcal.*                                        |
+
+
+<p align="center">
+  <img src="image (51).png" alt="" width="1000"/>
+</p>
+
+---
+
 ### 🧱 **Tech Stack**
 
 | 🧩 **Layer** | ⚙️ **Technology / Library** | 🎯 **Purpose** |

@@ -94,17 +94,6 @@ This project blends **machine learning**, **data engineering**, and **human-comp
 | 📊 **Visualization** | `Recharts` | Nutrient charts & data plots |
 | 🌐 **Communication** | `Axios` | HTTP request handling between client and server |
 
----
-
-### ⚔️ **Key Challenges & Resolutions**
-
-| ⚠️ **Challenge** | 💥 **Impact** | 🧩 **Resolution / Strategy** |
-|------------------|---------------|------------------------------|
-| **Table boundary detection variability** | Fragmented or misaligned rows | Utilized layout model + `infer_table_structure=True` |
-| **Memory pressure while loading 7B model** | OOM (Out-of-Memory) risk | Adopted `torch.float16`, gradient checkpointing, and reduced `max_new_tokens` |
-| **Noisy cell annotations (+/- symbols)** | Embedding distortion | Applied regex sanitation before vectorization |
-| **Retrieval of large raw tables** | High latency | Used summary-based embeddings + parent-doc mapping via `MultiVectorRetriever` |
-| **Heterogeneous regional columns** | Ambiguous data alignment | Preserved original schema and deferred normalization to post-processing |
 
 ---
 
